@@ -163,6 +163,12 @@ public class App {
     public static void main(String[] args) {
 
 
+
+        System.out.println(camelCase("asdfs'Adsf fgh?"));
+
+        int[] intArr = {1,2,3,4,5};
+        checkDigit(intArr);
+
         // test your method implementations here
         // make method calls
         // print their results
