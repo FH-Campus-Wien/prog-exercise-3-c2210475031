@@ -78,7 +78,7 @@ public class App {
 
     public static int randomNumberBetweenOneAndHundred(){
         Random rand =new Random();
-        return rand.nextInt(1,100);
+        return (1+rand.nextInt(99));
 
     }
 
